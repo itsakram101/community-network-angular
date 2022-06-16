@@ -9,7 +9,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './auth/login/login.component';
 
-
+// decorator ngModule = annotation en java  
 @NgModule({
   declarations: [
     AppComponent,
