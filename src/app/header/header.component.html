@@ -2,8 +2,6 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="flex-grow-1">
             <a aria-label="Home" class="logo" routerLink="/">
-
-                <!-- svg icon from reddit website -->
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="reddit-icon-svg">
                     <g>
                         <circle fill="#FF4500" cx="10" cy="10" r="10"></circle>
@@ -13,7 +11,7 @@
                     </g>
                 </svg>
                 <span class="reddit-text">
-                    community network!
+                    Spring Reddit Clone
                 </span>
             </a>
         </div>
@@ -27,8 +25,7 @@
                     <img class="account-icon" src="https://www.redditstatic.com/avatars/avatar_default_08_D4E815.png">
                     {{username}}
                 </button>
-            </div>           
-             <!--logging and sign up buttons  -->
+            </div>            
             <div *ngIf="!isLoggedIn">
                 <a routerLink="/sign-up" class="float-right sign-up mr-2">Sign up</a>
                 <a routerLink="/login" class="float-right login mr-2">Login</a>
